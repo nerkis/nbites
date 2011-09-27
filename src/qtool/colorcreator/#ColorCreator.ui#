@@ -153,7 +153,7 @@
   <widget class="QSlider" name="yMax">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>760</x>
      <y>490</y>
      <width>160</width>
      <height>22</height>
@@ -230,101 +230,101 @@
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>910</x>
-     <y>280</y>
+     <x>940</x>
+     <y>290</y>
      <width>62</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>H Min:</string>
+    <string>H Min</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>910</x>
-     <y>310</y>
+     <x>940</x>
+     <y>320</y>
      <width>62</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>H Max:</string>
+    <string>H Max</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>910</x>
-     <y>340</y>
+     <x>940</x>
+     <y>350</y>
      <width>62</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>S Min:</string>
+    <string>S Min</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>910</x>
-     <y>370</y>
+     <x>940</x>
+     <y>380</y>
      <width>62</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>S Max:</string>
+    <string>S Max</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>910</x>
+     <x>940</x>
      <y>460</y>
      <width>62</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Y Min:</string>
+    <string>Y Min</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>910</x>
+     <x>940</x>
      <y>490</y>
      <width>62</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Y Max:</string>
+    <string>Y Max</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_8">
    <property name="geometry">
     <rect>
-     <x>950</x>
-     <y>230</y>
+     <x>970</x>
+     <y>110</y>
      <width>16</width>
-     <height>21</height>
+     <height>81</height>
     </rect>
    </property>
    <property name="layoutDirection">
     <enum>Qt::LeftToRight</enum>
    </property>
    <property name="text">
-    <string>z:</string>
+    <string>z</string>
    </property>
   </widget>
   <widget class="QSlider" name="zMin">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>760</x>
      <y>400</y>
      <width>160</width>
      <height>22</height>
@@ -337,7 +337,7 @@
   <widget class="QSlider" name="zMax">
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>760</x>
      <y>430</y>
      <width>160</width>
      <height>22</height>
@@ -350,27 +350,27 @@
   <widget class="QLabel" name="label_9">
    <property name="geometry">
     <rect>
-     <x>910</x>
-     <y>400</y>
+     <x>940</x>
+     <y>410</y>
      <width>62</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Z Min:</string>
+    <string>Z Min</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_10">
    <property name="geometry">
     <rect>
-     <x>910</x>
+     <x>940</x>
      <y>430</y>
      <width>62</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>Z Max:</string>
+    <string>Z Max</string>
    </property>
   </widget>
   <widget class="QPushButton" name="getColorTable">
@@ -581,26 +581,39 @@
     </rect>
    </property>
    <property name="text">
-    <string>V Min:</string>
+    <string>V Min</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_12">
    <property name="geometry">
     <rect>
-     <x>910</x>
+     <x>940</x>
      <y>570</y>
      <width>62</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>V Max:</string>
+    <string>V Max</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>770</y>
+     <width>102</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Table Mode</string>
    </property>
   </widget>
   <widget class="QRadioButton" name="ColorChange">
    <property name="geometry">
     <rect>
-     <x>660</x>
+     <x>810</x>
      <y>800</y>
      <width>111</width>
      <height>16</height>
@@ -626,7 +639,7 @@
   <widget class="QLabel" name="vMaxLabel">
    <property name="geometry">
     <rect>
-     <x>960</x>
+     <x>950</x>
      <y>570</y>
      <width>50</width>
      <height>20</height>
@@ -652,7 +665,7 @@
   <widget class="QLabel" name="yMaxLabel">
    <property name="geometry">
     <rect>
-     <x>960</x>
+     <x>950</x>
      <y>490</y>
      <width>50</width>
      <height>20</height>
@@ -678,7 +691,7 @@
   <widget class="QLabel" name="zMaxLabel">
    <property name="geometry">
     <rect>
-     <x>960</x>
+     <x>950</x>
      <y>430</y>
      <width>50</width>
      <height>20</height>
@@ -704,10 +717,10 @@
   <widget class="QLabel" name="sMaxLabel">
    <property name="geometry">
     <rect>
-     <x>960</x>
+     <x>950</x>
      <y>370</y>
      <width>50</width>
-     <height>20</height>
+     <height>22</height>
     </rect>
    </property>
    <property name="text">
@@ -730,9 +743,9 @@
   <widget class="QLabel" name="hMaxLabel">
    <property name="geometry">
     <rect>
-     <x>960</x>
+     <x>950</x>
      <y>310</y>
-     <width>51</width>
+     <width>67</width>
      <height>17</height>
     </rect>
    </property>
@@ -743,66 +756,14 @@
   <widget class="QLabel" name="hMinLabel">
    <property name="geometry">
     <rect>
-     <x>960</x>
+     <x>950</x>
      <y>280</y>
-     <width>51</width>
+     <width>67</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
     <string/>
-   </property>
-  </widget>
-  <widget class="QLabel" name="zLabel">
-   <property name="geometry">
-    <rect>
-     <x>960</x>
-     <y>230</y>
-     <width>41</width>
-     <height>20</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>800</x>
-     <y>770</y>
-     <width>81</width>
-     <height>21</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Table Mode:</string>
-   </property>
-  </widget>
-  <widget class="QRadioButton" name="tableModeOn">
-   <property name="geometry">
-    <rect>
-     <x>890</x>
-     <y>770</y>
-     <width>51</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>On</string>
-   </property>
-  </widget>
-  <widget class="QRadioButton" name="tableModeOff">
-   <property name="geometry">
-    <rect>
-     <x>940</x>
-     <y>770</y>
-     <width>51</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Off</string>
    </property>
   </widget>
  </widget>
@@ -966,22 +927,6 @@
     <hint type="destinationlabel">
      <x>853</x>
      <y>308</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>zSlice</sender>
-   <signal>valueChanged(int)</signal>
-   <receiver>zLabel</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>960</x>
-     <y>149</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>970</x>
-     <y>239</y>
     </hint>
    </hints>
   </connection>

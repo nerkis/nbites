@@ -127,7 +127,7 @@ private slots:
 
     void on_getOldTable_clicked();
 
-    void on_radioButton_clicked();
+    //void on_radioButton_clicked();
 
     void on_ColorChange_clicked();
 
@@ -142,6 +142,12 @@ private slots:
     void on_vMin_valueChanged(int value);
 
     void on_vMax_valueChanged(int value);
+
+    //void on_vMax_sliderMoved(int position);
+
+    void on_tableModeOn_toggled(bool checked);
+
+    void on_tableModeOff_toggled(bool checked);
 
 private:
     Ui::ColorCreator *ui;
