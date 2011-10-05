@@ -1,6 +1,7 @@
 
 #include "QTool.h"
 #include <iostream>
+#include <QScrollArea>
 
 namespace qtool {
 
@@ -14,13 +15,16 @@ QTool::QTool() : QMainWindow(),
         dataManager(new DataManager()),
         dataLoader(new DataLoader(dataManager)),
         colorCreator(new ColorCreator(dataManager)),
-        logViewer(new LogViewer(dataManager)){
+        logViewer(new LogViewer(dataManager)),
+        scrollbar(new QScrollArea()){
 
     this->setWindowTitle(tr("HackTool"));
 
     this->setCentralWidget(toolTabs);
 
-    toolTabs->addTab(colorCreator, tr("Color Creator"));
+    scrollbar->setWidget(colorCreator);
+
+    toolTabs->addTab(scrollbar, tr("Color Creator"));
     toolTabs->addTab(dataLoader, tr("Data Loader"));
     toolTabs->addTab(logViewer, tr("Log Viewer"));
 

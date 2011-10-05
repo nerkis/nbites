@@ -127,10 +127,6 @@ private slots:
 
     void on_getOldTable_clicked();
 
-    //void on_radioButton_clicked();
-
-    void on_ColorChange_clicked();
-
     void on_cornerDefine_clicked();
 
     void on_changeColor_clicked();
@@ -148,6 +144,10 @@ private slots:
     void on_tableModeOn_toggled(bool checked);
 
     void on_tableModeOff_toggled(bool checked);
+
+    void on_defineMode_toggled(bool checked);
+
+    void on_undefMode_toggled(bool checked);
 
 private:
     Ui::ColorCreator *ui;

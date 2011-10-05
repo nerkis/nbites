@@ -31,3 +31,10 @@ with this system and then refine it with the old if they were so inclined.
 
 4) Converts old color tables into the new format.  Obviously in the long run
 this functionality will be dropped.
+
+Nicole changes:
+1. added labels to sliders, displays values
+2. first log loads without pressing next button
+3. changed def/indef and table mode buttons, hopefully current mode is clearer
+4. increased logviewer dock widget size
+5. added scrollbar to colorcreator main window

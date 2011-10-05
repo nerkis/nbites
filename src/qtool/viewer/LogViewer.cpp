@@ -15,7 +15,7 @@ LogViewer::LogViewer(DataManager::ptr dataManager) :
 		roboImageViewer(new RoboImageViewer(
 				dataManager->getMemory()->getRoboImage())){
 
-	this->setCentralWidget(roboImageViewer);
+        this->setCentralWidget(roboImageViewer);
 	dataManager->addSubscriber(roboImageViewer, MIMAGE_ID);
 
 	std::vector<QTreeView> messageViewers;
@@ -25,6 +25,7 @@ LogViewer::LogViewer(DataManager::ptr dataManager) :
 			QDockWidget* dockWidget = new QDockWidget(QString(MObject::NameFromID(id).c_str()), this);
 			MObjectViewer* view = new MObjectViewer(dataManager->getMemory()->getProtoMessage(id));
 			dockWidget->setWidget(view);
+                        dockWidget->setMinimumWidth(250);
 			this->addDockWidget(Qt::RightDockWidgetArea, dockWidget);
 			dataManager->addSubscriber(view);
 			//view->

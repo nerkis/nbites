@@ -317,6 +317,8 @@ void ColorCreator::mousePressEvent(QMouseEvent *event)
     firstPoint.setY(firstPoint.y() - IMAGE_Y);
 }
 
+//is this not working right because it's trying to use chown directory??
+//is it different because using logs?
 void ColorCreator::updateDisplays()
 {
     QString next;
@@ -1201,9 +1203,14 @@ void ColorCreator::on_tableModeOff_toggled(bool checked)
     tableMode = false;
 }
 
-void ColorCreator::on_ColorChange_clicked()
+void ColorCreator::on_defineMode_toggled(bool checked)
 {
-    defineMode = !defineMode;
+    defineMode = true;
+}
+
+void ColorCreator::on_undefMode_toggled(bool checked)
+{
+    defineMode = false;
 }
 
 void ColorCreator::on_cornerDefine_clicked()

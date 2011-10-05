@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1000</width>
-    <height>900</height>
+    <width>1015</width>
+    <height>874</height>
    </rect>
   </property>
   <property name="mouseTracking">
@@ -597,23 +597,10 @@
     <string>V Max:</string>
    </property>
   </widget>
-  <widget class="QRadioButton" name="ColorChange">
-   <property name="geometry">
-    <rect>
-     <x>660</x>
-     <y>800</y>
-     <width>111</width>
-     <height>16</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Define/Undef</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="changeColor">
    <property name="geometry">
     <rect>
-     <x>810</x>
+     <x>800</x>
      <y>830</y>
      <width>114</width>
      <height>32</height>
@@ -805,6 +792,109 @@
     <string>Off</string>
    </property>
   </widget>
+  <widget class="QScrollArea" name="scrollbar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1021</width>
+     <height>871</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1019</width>
+      <height>869</height>
+     </rect>
+    </property>
+    <widget class="QRadioButton" name="defineMode">
+     <property name="geometry">
+      <rect>
+       <x>800</x>
+       <y>800</y>
+       <width>61</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Def</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="undefMode">
+     <property name="geometry">
+      <rect>
+       <x>860</x>
+       <y>800</y>
+       <width>71</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Indef</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <zorder>scrollbar</zorder>
+  <zorder>previousButton</zorder>
+  <zorder>nextButton</zorder>
+  <zorder>colorWheel</zorder>
+  <zorder>hMin</zorder>
+  <zorder>hMax</zorder>
+  <zorder>sMin</zorder>
+  <zorder>sMax</zorder>
+  <zorder>yMin</zorder>
+  <zorder>yMax</zorder>
+  <zorder>zSlice</zorder>
+  <zorder>colorSelect</zorder>
+  <zorder>thresh</zorder>
+  <zorder>viewChoice</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>zMin</zorder>
+  <zorder>zMax</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>getColorTable</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>writeNew</zorder>
+  <zorder>plusTen</zorder>
+  <zorder>minusTen</zorder>
+  <zorder>view2</zorder>
+  <zorder>view3</zorder>
+  <zorder>channel</zorder>
+  <zorder>getOldTable</zorder>
+  <zorder>edgeDiff</zorder>
+  <zorder>vMin</zorder>
+  <zorder>vMax</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_12</zorder>
+  <zorder>changeColor</zorder>
+  <zorder>vMaxLabel</zorder>
+  <zorder>vMinLabel</zorder>
+  <zorder>yMaxLabel</zorder>
+  <zorder>yMinLabel</zorder>
+  <zorder>zMaxLabel</zorder>
+  <zorder>zMinLabel</zorder>
+  <zorder>sMaxLabel</zorder>
+  <zorder>sMinLabel</zorder>
+  <zorder>hMaxLabel</zorder>
+  <zorder>hMinLabel</zorder>
+  <zorder>zLabel</zorder>
+  <zorder>label</zorder>
+  <zorder>tableModeOn</zorder>
+  <zorder>tableModeOff</zorder>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources/>

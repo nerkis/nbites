@@ -28,6 +28,7 @@ public:
 
 private:
     QTabWidget* toolTabs;
+    QScrollArea* scrollbar;
 
     data::DataManager::ptr dataManager;
     data::DataLoader* dataLoader;
